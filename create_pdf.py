@@ -15,7 +15,7 @@ SCREENSHOTS_DIR = os.path.join(BASE_DIR, "screenshots")
 TEMP_IMG_DIR = os.path.join(BASE_DIR, ".pdf_img_cache")
 os.makedirs(TEMP_IMG_DIR, exist_ok=True)
 
-GITHUB_REPO_URL = "https://github.com/Aazib-dev/Student-Learning-Portal"
+GITHUB_REPO_URL = "https://github.com/Aazib-Ai/Student-Learning-Portal"
 
 def optimize_image(filename, max_width=500, quality=85):
     src = os.path.join(SCREENSHOTS_DIR, filename)
@@ -66,7 +66,7 @@ class NumberedCanvas(canvas.Canvas):
         self.setLineWidth(0.75)
         self.line(54, 42, 558, 42)
         
-        repo_text = "GitHub: github.com/Aazib-dev/Student-Learning-Portal"
+        repo_text = "GitHub: github.com/Aazib-Ai/Student-Learning-Portal"
         self.drawString(54, 30, repo_text)
         page_str = f"Page {self._pageNumber} of {page_count}"
         self.drawRightString(558, 30, page_str)

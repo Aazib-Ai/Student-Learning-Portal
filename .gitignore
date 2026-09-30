@@ -12,3 +12,7 @@ local.properties
 
 .pdf_img_cache/
 pdf_preview/
+*.zip
+*.rar
+emulator_screen.png
+sidebar_icons.png
